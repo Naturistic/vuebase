@@ -11,9 +11,9 @@
       </v-col>
 
       <v-col class="mb-4">
-        <h4 class="display-2 font-weight-bold mb-3">
-          Welcome to Naturistic,  your online resource for high definition nature photos
-        </h4>
+      <h2 class="headline font-weight-bold mb-3">
+        Welcome to Naturistic, your online source of high quality nature photographs
+      </h2>
 
       </v-col>
 
