@@ -10,7 +10,7 @@
           alt="Naturistic Logo"
           class="shrink mr-2"
           contain
-          src="../assets/favacon.png"
+          src="assets/favacon.png"
           transition="scale-transition"
           width="40"
         />
