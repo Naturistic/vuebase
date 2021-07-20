@@ -14,7 +14,7 @@
           transition="scale-transition"
           width="40"
         />
-          <v-btn fab color="#0097A7" small v-on:click="redirect_to_login">img(src="./assets/favacon.png")</v-btn>
+          <v-btn fab color="#0097A7" small><a href="#" class="link" target="_blank"><v-icon style="color: white;">mdi-home</v-icon></a></v-btn>
 
       </div>
 
