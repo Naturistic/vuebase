@@ -4,7 +4,7 @@
       <div class="d-flex align-center">
 
           <v-btn fab color="#0097A7" small>
-            <router-link :to="{ name: 'home' }">
+            <router-link :to="{ name: 'Home' }">
               <v-icon style="color: white;">mdi-home</v-icon>
             </router-link>
           </v-btn>
