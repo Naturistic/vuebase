@@ -25,15 +25,29 @@
     data: () => ({
     cart:[
         {
-            "title":"California Waves",
-            "image":"../images/wave.jpg",
-            "price": 1.00
+        "id": "prod_JqxLNmRk2SRVJu",
+        "object": "product",
+        "active": true,
+        "created": 1626297374,
+        "description": "Wall mounted  2 meter banner with \"Black Hole\" design  on both sides.  ",
+        "images": [
+          "https://files.stripe.com/links/MDB8YWNjdF8xSkNUQWFIeGdLM3RMS3JLfGZsX3Rlc3RfOWhhQnZmZVFVeDVsMDVqUmhYZ2t3Wk1i00deZSGfaa"
+        ],
+        "livemode": false,
+        "metadata": {
+          "bigImageURL": "https://myAWSs3Bucket/theBlackHoleWall",
+          "kind": "mountain,sunset"
         },
-        {
-            "title":"Desert Mountain",
-            "image":"../images/wave.jpg",
-            "price": 1.00
-        }
+        "name": "Tie Dye Banner [wall]  Black Hole",
+        "package_dimensions": null,
+        "shippable": null,
+        "statement_descriptor": null,
+        "tax_code": null,
+        "unit_label": null,
+        "updated": 1626455324,
+        "url": null
+        },
+
     ],
     products: [
         {
