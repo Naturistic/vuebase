@@ -28,7 +28,7 @@ const routes = [
   },
   {
     path: '/success',
-    name: 'About',
+    name: 'Success',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -41,7 +41,7 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "cancelled" */ '../views/Cancelled.vue')
-  }, 
+  },
   {
     path: '/cart',
     name: 'Cart',
@@ -49,7 +49,7 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "cart" */ '../views/Cart.vue')
-  }, 
+  },
   {
     path: '*',
     name: 'NotFound',
@@ -57,7 +57,7 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "notfound" */ '../views/NotFound.vue')
-  },  
+  },
 ]
 
 const router = new VueRouter({
