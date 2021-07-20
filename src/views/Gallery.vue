@@ -5,7 +5,9 @@
 </template>
 
 <script>
-  import store from '../store/store'
+  import globalStore from '../store/globalStore'
+
+  console.log(globalStore.productList);
 
   export default {
     name: 'Gallery',
