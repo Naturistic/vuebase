@@ -14,6 +14,7 @@
           transition="scale-transition"
           width="40"
         />
+          <v-btn fab color="#0097A7" small v-on:click="redirect_to_login">img(src="./assets/favacon.png")</v-btn>
 
       </div>
 
