@@ -88,3 +88,53 @@
 
   </div>
 </template>
+
+<style>
+/* About */
+
+#developers {
+    grid-column-start: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: left;
+
+}
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.about-developer {
+    padding: 20px;
+    margin: 0px;
+
+}
+
+
+.name {
+    padding-left: 20px;
+}
+.white {
+    color: white;
+}
+.primary-color {
+    background-color: #006064;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.mr-icon {
+    margin-right: 10px;
+}
+</style>
