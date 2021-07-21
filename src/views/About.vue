@@ -30,7 +30,7 @@
                  <v-btn fab color="#0097A7" class="mr-icon" small><a href="https://www.linkedin.com/in/daniel-urias-aa89451b2" class="link" target="_blank"><v-icon style="color: white;">mdi-linkedin</v-icon></a></v-btn>
                  <v-btn fab color="#0097A7" small><a href="#" class="link" target="_blank"><v-icon style="color: white;">mdi-github</v-icon></a></v-btn>
              </v-card-subtitle>
-             <v-card-subtitle><v-img contain src="../images/sun_mountain.jpg" width="300"></v-img></v-card-subtitle>
+             <v-card-subtitle><v-img contain src="../assets/Doug.png" width="300"></v-img></v-card-subtitle>
 
          </div>
          </v-card>
@@ -44,7 +44,7 @@
 
          <v-card-title class="text-h6">Kalicia Adams</v-card-title>
          <div class="profile-section">
-             <v-card-subtitle> <v-img contain src="../images/kalicia.jpg" width="300"></v-img></v-card-subtitle>
+             <v-card-subtitle> <v-img contain src="../assets/Doug.png" width="300"></v-img></v-card-subtitle>
              <v-card-subtitle class="about-developer">Lorem ipsum dolor sit amet,
              consectetur adipiscing elit, sed do eiusmod
              tempor incididunt ut labore et dolore magna aliqua.
@@ -78,7 +78,7 @@
               <v-btn fab color="#0097A7" class="mr-icon" small><a href="https://www.linkedin.com/in/opensimian" class="link" target="_blank"><v-icon style="color: white;">mdi-linkedin</v-icon></a></v-btn>
               <v-btn fab color="#0097A7" small><a href="#" class="link" target="_blank"><v-icon style="color: white;">mdi-github</v-icon></a></v-btn>
              </v-card-subtitle>
-              <v-card-subtitle><v-img contain src="../images/lake.jpg" width="300"></v-img></v-card-subtitle>
+              <v-card-subtitle><v-img contain src="../assets/Doug.png" width="300"></v-img></v-card-subtitle>
          </div>
      </v-card>
  </v-col>
