@@ -20,7 +20,9 @@
 
 <script>
 
-  import globalStore from '../store'
+  import globalStore from './store/'
+
+  console.log(globalStore.productList);
 
   export default {
     name: 'App',
