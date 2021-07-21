@@ -44,7 +44,7 @@
 
          <v-card-title class="text-h6">Kalicia Adams</v-card-title>
          <div class="profile-section">
-             <v-card-subtitle> <v-img contain src="../assets/Doug.png" width="300"></v-img></v-card-subtitle>
+             <v-card-subtitle> <v-img contain src="../assets/kalicia.png" width="300"></v-img></v-card-subtitle>
              <v-card-subtitle class="about-developer">Lorem ipsum dolor sit amet,
              consectetur adipiscing elit, sed do eiusmod
              tempor incididunt ut labore et dolore magna aliqua.
