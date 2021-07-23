@@ -22,19 +22,15 @@
         cols="12"
       >
         <h4 class="headline font-weight-bold mb-3">
-          What's next?
+          About the application
         </h4>
 
         <v-row justify="center">
-          <a
-            v-for="(next, i) in whatsNext"
-            :key="i"
-            :href="next.href"
-            class="subheading mx-3"
-            target="_blank"
-          >
-            {{ next.text }}
-          </a>
+          <br></br>
+          Naturistic is a Single Page Application (SPA) to act as a storefront for Digital Content Delivery
+          <br></br>
+
+
         </v-row>
       </v-col>
 
@@ -43,12 +39,12 @@
         cols="12"
       >
         <h2 class="headline font-weight-bold mb-3">
-          Important Links
+          About the team
         </h2>
 
         <v-row justify="center">
           <a
-            v-for="(link, i) in importantLinks"
+            v-for="(link, i) in teamMembers"
             :key="i"
             :href="link.href"
             class="subheading mx-3"
@@ -102,27 +98,20 @@
           href: 'https://github.com/vuetifyjs/awesome-vuetify',
         },
       ],
-      importantLinks: [
+      teamMembers: [
         {
-          text: 'Documentation',
+          text: 'Kalicia Adams',
           href: 'https://vuetifyjs.com',
         },
         {
-          text: 'Chat',
+          text: 'Daniel',
           href: 'https://community.vuetifyjs.com',
         },
         {
-          text: 'Made with Vuetify',
+          text: 'Doug Osborn',
           href: 'https://madewithvuejs.com/vuetify',
         },
-        {
-          text: 'Twitter',
-          href: 'https://twitter.com/vuetifyjs',
-        },
-        {
-          text: 'Articles',
-          href: 'https://medium.com/vuetify',
-        },
+
       ],
       whatsNext: [
         {
