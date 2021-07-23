@@ -26,7 +26,6 @@
         </h4>
 
         <v-row justify="center">
-          <br>
           Naturistic is a Single Page Application (SPA) storefront for Digital Content Delivery.
           <br>
           It is based on modern web technologies including HTML, CSS, JavaScript, Vue, Vuetify, Node, and Express.
