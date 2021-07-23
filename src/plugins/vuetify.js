@@ -11,6 +11,11 @@ export default new Vuetify({
         secondary: '#0097a7',
         anchor: '#8c9eff',
       },
+      dark: {
+        primary: '#0097a7',
+        secondary: '#006064',
+        anchor: '#8c9eff',
+      },
     },
   },
 });
