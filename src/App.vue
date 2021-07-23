@@ -7,11 +7,20 @@
               <v-icon style="color: white;">mdi-home</v-icon>
             </router-link>
           </v-btn>
-          <v-btn v-if= $vuetify.theme.dark
-           @click="$vuetify.theme.dark  = false">Light
-           v-else
-           @click="$vuetify.theme.dark = true">Dark
-          </v-btn>
+
+          <div v-if="$vuetify.theme.dark = true">
+            <v-btn fab color='secondary' small>
+            <v-icon style="color: white;">mdi-home</v-icon>
+            </v-btn>
+          </div>
+
+          <div v-if="$vuetify.theme.dark = false">
+            <v-btn fab color='secondary' small>
+              <v-icon style="color: white;">mdi-home</v-icon>
+            </v-btn>
+          </div>
+
+
       </div>
       <v-spacer></v-spacer>
     </v-app-bar>
