@@ -30,6 +30,7 @@
           Naturistic is a Single Page Application (SPA) storefront for Digital Content Delivery.
           <br>
           It is based on modern web technologies including HTML, CSS, JavaScript, Vue, Vuetify, Node, and Express.
+          <br>
           It implements APIs to STRIPE for payment processing and  AWS s3 buckets for content delivery.
           <br>
           We use an integrated GIT - GITHUB - HEROKU  automated deployment stack.
