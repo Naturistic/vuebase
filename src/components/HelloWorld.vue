@@ -26,9 +26,9 @@
         </h4>
 
         <v-row justify="center">
-          <br></br>
+          <br>
           Naturistic is a Single Page Application (SPA) to act as a storefront for Digital Content Delivery
-          <br></br>
+          <br>
 
 
         </v-row>
