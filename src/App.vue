@@ -9,15 +9,21 @@
           </v-btn>
 
           <div v-if="$vuetify.theme.dark = true">
-            <v-btn fab color='secondary' small>
-            <v-icon style="color: white;">mdi-home</v-icon>
+            <v-btn @click="swap">
+              <v-icon class="mr-1 title">
+                mdi-brightness-5
+              </v-icon>
+              Light
             </v-btn>
           </div>
 
           <div v-if="$vuetify.theme.dark = false">
-            <v-btn fab color='secondary' small>
-              <v-icon style="color: white;">mdi-home</v-icon>
-            </v-btn>
+          <v-btn @click="swap">
+            <v-icon class="mr-1 title">
+              mdi-brightness-3
+            </v-icon>
+            Dark
+          </v-btn>
           </div>
 
 
@@ -40,6 +46,20 @@
   export default {
     name: 'App',
   }
+
+  swap () {
+    this.$vuetify.theme.isDark = !this.$vuetify.theme.isDark
+
+    // necessary to reset colors after changing the theme, perhaps a Vuetify.js bug
+    this.touchAll(1)
+  }
+
+  touchAll () {
+    const value = this.$vuetify.theme.themes[this.theme]
+    this.$vuetify.theme.themes[this.theme] = {}
+    this.$vuetify.theme.themes[this.theme] = value
+  },
+
 
 
 
