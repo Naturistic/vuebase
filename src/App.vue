@@ -2,30 +2,34 @@
   <v-app>
     <v-app-bar app color='primary' dark >
       <div class="d-flex align-center">
-          <v-btn fab color='secondary' small>
-            <router-link  style="text-decoration: none; color: inherit;" to= '/' >
-              <v-icon style="color: white;">mdi-home</v-icon>
-            </router-link>
-          </v-btn>
 
-          <div v-if="$vuetify.theme.dark = true">
-            <v-btn @click="swap">
-              <v-icon class="mr-1 title">
-                mdi-brightness-5
-              </v-icon>
-              Light
+
+          <div v-if=$vuetify.theme.dark>
+
+            <v-btn fab color='secondary' small>
+              <router-link  style="text-decoration: none;" to= '/' >
+                <v-icon style="color: black;">mdi-home</v-icon>
+              </router-link>
+            </v-btn>
+
+            <v-btn fab color='secondary' small @click="$vuetify.theme.dark = false">
+              <v-icon style="color: black;">mdi-brightness-5</v-icon>
             </v-btn>
           </div>
 
-          <div v-if="$vuetify.theme.dark = false">
-          <v-btn @click="swap">
-            <v-icon class="mr-1 title">
-              mdi-brightness-3
-            </v-icon>
-            Dark
-          </v-btn>
-          </div>
+          <div v-else>
 
+            <v-btn fab color='secondary' small>
+              <router-link  style="text-decoration: none;" to= '/' >
+                <v-icon style="color: white;">mdi-home</v-icon>
+              </router-link>
+            </v-btn>
+
+            <v-btn fab color='secondary' small @click="$vuetify.theme.dark = true">
+              <v-icon style="color: white;">mdi-brightness-3</v-icon>
+            </v-btn>
+
+          </div>
 
       </div>
       <v-spacer></v-spacer>
@@ -39,28 +43,14 @@
 
 <script>
 
-  import globalStore from './store/'
+  import globalStore from './store/';
 
   console.log(globalStore.productList);
 
   export default {
     name: 'App',
-  }
 
-  swap () {
-    this.$vuetify.theme.isDark = !this.$vuetify.theme.isDark
-
-    // necessary to reset colors after changing the theme, perhaps a Vuetify.js bug
-    this.touchAll(1)
-  }
-
-  touchAll () {
-    const value = this.$vuetify.theme.themes[this.theme]
-    this.$vuetify.theme.themes[this.theme] = {}
-    this.$vuetify.theme.themes[this.theme] = value
-  },
-
-
+  };
 
 
 
