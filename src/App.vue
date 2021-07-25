@@ -25,6 +25,12 @@
             </v-btn>
 
             <v-btn fab color='secondary' small>
+              <router-link  style="text-decoration: none;" to= '/gallery' >
+                <v-icon style="color: black;">mdi-image-multiple</v-icon>
+              </router-link>
+            </v-btn>
+
+            <v-btn fab color='secondary' small>
               <router-link  style="text-decoration: none;" to= '/cart' >
                 <v-icon style="color: black;">mdi-cart-outline</v-icon>
               </router-link>
@@ -48,6 +54,12 @@
             <router-link  style="text-decoration: none;" to= '/about' >
               <v-icon style="color: white;">mdi-help</v-icon>
             </router-link>
+            </v-btn>
+
+            <v-btn fab color='secondary' small>
+              <router-link  style="text-decoration: none;" to= '/gallery' >
+                <v-icon style="color: white;">mdi-image-multiple</v-icon>
+              </router-link>
             </v-btn>
 
             <v-btn fab color='secondary' small>
