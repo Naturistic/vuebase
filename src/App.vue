@@ -110,6 +110,36 @@
   export default {
     name: 'App',
 
+    data: {
+    selected_category:"all",
+    search_string: "",
+    categories: [
+        "all",
+        "books",
+        "clothing",
+        "cooking",
+        "computers",
+        "music",
+        "world news",
+        "misc."
+    ],
+
+    },
+
+    created:function(){
+      this.getThreads(); //first thing called when app starts.
+    },
+
+    methods: {
+      getThreads:function(){
+        fetch(`${url}/thread`).then(function(response){
+            response.json().then(function(data){
+                console.log(data);
+                app.threads = data;
+            })
+        })
+    },
+
   };
 
 
