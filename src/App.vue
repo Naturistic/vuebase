@@ -120,6 +120,6 @@
 
 <style>
 .v-toolbar__title {
-  font-size: 1.5rem !important;
+  font-size: 2.5rem !important;
 }
 </style>
