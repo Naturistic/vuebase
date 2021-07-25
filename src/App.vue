@@ -8,8 +8,6 @@
 
         <v-app-bar app color='primary' light >
 
-        <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
         <v-btn fab color='secondary' small>
           <router-link  style="text-decoration: none;" to= '/' >
             <v-icon style="color: black;">mdi-home-outline</v-icon>
@@ -20,6 +18,7 @@
 
         <v-toolbar-title>Naturistic</v-toolbar-title>
 
+        <v-spacer></v-spacer>
         <v-spacer></v-spacer>
         <v-spacer></v-spacer>
 
@@ -59,8 +58,6 @@
       <div class="d-flex align-center" v-else>
 
         <v-app-bar app color='primary' dark >
-
-        <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
         <v-btn fab color='secondary' small>
           <router-link  style="text-decoration: none;" to= '/' >
@@ -120,3 +117,9 @@
 
 
 </script>
+
+<style>
+.v-toolbar__title {
+  font-size: 1.5rem !important;
+}
+</style>
