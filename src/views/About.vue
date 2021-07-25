@@ -45,11 +45,8 @@
          <v-card-title class="text-h6">Kalicia Adams</v-card-title>
          <div class="profile-section">
              <v-card-subtitle> <v-img contain src="../assets/kalicia.png" width="300"></v-img></v-card-subtitle>
-             <v-card-subtitle class="about-developer">Lorem ipsum dolor sit amet,
-             consectetur adipiscing elit, sed do eiusmod
-             tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             <v-card-subtitle class="about-developer">Original Product concept, Project Lead,
+                UX/UI Design, UI implementation, test product generation, vuetification.
                  <v-spacer></v-spacer>
                  <br>
                  <v-btn fab color="#0097A7" class="mr-icon" small><a href="https://www.linkedin.com/in/kalicia-adams-2b489a207" class="link" target="_blank"><v-icon style="color: white;">mdi-linkedin</v-icon></a></v-btn>
@@ -68,11 +65,8 @@
      >
          <v-card-title class="text-h6">Doug Osborn</v-card-title>
          <div class="profile-section">
-         <v-card-subtitle class="about-developer">Lorem ipsum dolor sit amet,
-             consectetur adipiscing elit, sed do eiusmod
-             tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco laboris nisi ut aliquip ex ea commodo consequat.
+         <v-card-subtitle class="about-developer">UX design, UI testing, STRIPE API integration,
+              AWS s3 integration, Node/Express server design and implementation, test product generation.
               <br>
               <br>
               <v-btn fab color="#0097A7" class="mr-icon" small><a href="https://www.linkedin.com/in/opensimian" class="link" target="_blank"><v-icon style="color: white;">mdi-linkedin</v-icon></a></v-btn>

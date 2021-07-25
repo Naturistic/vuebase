@@ -21,19 +21,22 @@
         class="mb-5"
         cols="12"
       >
-        <h4 class="headline font-weight-bold mb-3">
+        <h2 class="headline font-weight-bold mb-3">
           About the application
-        </h4>
+        </h2>
 
+
+        <h3>
         <v-row justify="center">
           Naturistic is a Single Page Application (SPA) storefront for Digital Content Delivery.
           <br>
-          It is based on modern web technologies including HTML, CSS, JavaScript, Vue, Vuetify, Node, and Express.
+          It uses web technologies including HTML, CSS, JavaScript, JSON, Vue, Vuetify, Node, and Express.
           <br>
-          It implements APIs to STRIPE for payment processing and  AWS s3 buckets for content delivery.
+          It implements REST APIs to STRIPE for payment processing and  AWS s3 buckets for content delivery.
           <br>
-          We use an integrated GIT - GITHUB - HEROKU  automated deployment stack.
+          We use  <strong>GIT - GITHUB - HEROKU</strong>  for Source Code Control and automated deployment stack.
         </v-row>
+        </h3>
       </v-col>
 
       <v-col
