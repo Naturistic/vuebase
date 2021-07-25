@@ -10,24 +10,24 @@
 
         <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-        <v-spacer></v-spacer>
-
         <v-btn fab color='secondary' small>
           <router-link  style="text-decoration: none;" to= '/' >
             <v-icon style="color: black;">mdi-home-outline</v-icon>
           </router-link>
         </v-btn>
-        
+
         <v-spacer></v-spacer>
 
         <v-toolbar-title>Naturistic</v-toolbar-title>
 
+        <v-spacer></v-spacer>
         <v-spacer></v-spacer>
 
         <v-btn fab color='secondary' small @click="$vuetify.theme.dark = false">
           <v-icon style="color: black;">mdi-brightness-5</v-icon>
         </v-btn>
 
+        <v-spacer></v-spacer>
         <v-spacer></v-spacer>
 
         <v-btn fab color='secondary' small>
