@@ -2,9 +2,11 @@
 
   <v-app>
 
-    <v-app-bar app color='primary' dark >
+
 
       <div class="d-flex align-center" v-if=$vuetify.theme.dark>
+
+        <v-app-bar app color='primary' dark >
 
         <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
@@ -41,6 +43,8 @@
       </div>
 
       <div class="d-flex align-center" v-else>
+
+        <v-app-bar app color='primary' light >
 
         <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
