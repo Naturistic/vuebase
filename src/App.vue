@@ -38,7 +38,7 @@
               <v-icon style="color: white;">mdi-brightness-3</v-icon>
             </v-btn>
 
-            <v-btn fab color='secondary' small @click="$vuetify.theme.dark = false">
+            <v-btn fab color='secondary' small>
             <router-link  style="text-decoration: none;" to= '/cart' >
               <v-icon style="color: white;">mdi-cart-outline</v-icon>
             </router-link>
