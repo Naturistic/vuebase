@@ -6,6 +6,10 @@
 
       <div class="d-flex align-center">
 
+        <v-app-bar-nav-icon></v-app-bar-nav-icon>
+
+
+
           <div v-if=$vuetify.theme.dark>
 
             <v-btn fab color='secondary' small>
@@ -13,6 +17,8 @@
                 <v-icon style="color: black;">mdi-home-outline</v-icon>
               </router-link>
             </v-btn>
+
+            <v-toolbar-title>Naturistic</v-toolbar-title>
 
             <v-btn fab color='secondary' small @click="$vuetify.theme.dark = false">
               <v-icon style="color: black;">mdi-brightness-5</v-icon>
@@ -45,6 +51,8 @@
                 <v-icon style="color: white;">mdi-home-outline</v-icon>
               </router-link>
             </v-btn>
+
+            <v-toolbar-title>Naturistic</v-toolbar-title>            
 
             <v-btn fab color='secondary' small @click="$vuetify.theme.dark = true">
               <v-icon style="color: white;">mdi-brightness-3</v-icon>
