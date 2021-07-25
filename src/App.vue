@@ -18,8 +18,10 @@
               <v-icon style="color: black;">mdi-brightness-5</v-icon>
             </v-btn>
 
-            <v-btn fab color='secondary' small @click="$vuetify.theme.dark = false">
-              <v-icon style="color: black;">mdi-cart-outline</v-icon>
+            <v-btn fab color='secondary' small>
+              <router-link  style="text-decoration: none;" to= '/cart' >
+                <v-icon style="color: black;">mdi-cart-outline</v-icon>
+              </router-link>
             </v-btn>
 
           </div>
@@ -37,7 +39,9 @@
             </v-btn>
 
             <v-btn fab color='secondary' small @click="$vuetify.theme.dark = false">
+            <router-link  style="text-decoration: none;" to= '/cart' >
               <v-icon style="color: white;">mdi-cart-outline</v-icon>
+            </router-link>
             </v-btn>
 
           </div>
