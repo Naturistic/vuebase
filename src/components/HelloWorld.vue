@@ -34,7 +34,7 @@
           <br>
           It implements REST APIs to STRIPE for payment processing and  AWS s3 buckets for content delivery.
           <br>
-          We use  <strong>GIT - GITHUB - HEROKU</strong>  for Source Code Control and automated deployment stack.
+          We use GIT - GITHUB - HEROKU for Source Code Control and automated deployment stack.
         </v-row>
         </h3>
       </v-col>
