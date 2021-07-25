@@ -19,7 +19,7 @@
             </v-btn>
 
             <v-btn fab color='secondary' small @click="$vuetify.theme.dark = false">
-              <v-icon style="color: black;">mdi-cartOutline</v-icon>
+              <v-icon style="color: black;">mdi-cart-outline</v-icon>
             </v-btn>
 
           </div>
