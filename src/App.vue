@@ -10,7 +10,7 @@
 
             <v-btn fab color='secondary' small>
               <router-link  style="text-decoration: none;" to= '/' >
-                <v-icon style="color: black;">mdi-home</v-icon>
+                <v-icon style="color: black;">mdi-home-outline</v-icon>
               </router-link>
             </v-btn>
 
@@ -30,7 +30,7 @@
 
             <v-btn fab color='secondary' small>
               <router-link  style="text-decoration: none;" to= '/' >
-                <v-icon style="color: white;">mdi-home</v-icon>
+                <v-icon style="color: white;">mdi-home-outline</v-icon>
               </router-link>
             </v-btn>
 
