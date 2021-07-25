@@ -17,6 +17,11 @@
             <v-btn fab color='secondary' small @click="$vuetify.theme.dark = false">
               <v-icon style="color: black;">mdi-brightness-5</v-icon>
             </v-btn>
+
+            <v-btn fab color='secondary' small @click="$vuetify.theme.dark = false">
+              <v-icon style="color: black;">mdi-cartOutline</v-icon>
+            </v-btn>
+
           </div>
 
           <div v-else>
@@ -29,6 +34,10 @@
 
             <v-btn fab color='secondary' small @click="$vuetify.theme.dark = true">
               <v-icon style="color: white;">mdi-brightness-3</v-icon>
+            </v-btn>
+
+            <v-btn fab color='secondary' small @click="$vuetify.theme.dark = false">
+              <v-icon style="color: white;">mdi-cartOutline</v-icon>
             </v-btn>
 
           </div>
